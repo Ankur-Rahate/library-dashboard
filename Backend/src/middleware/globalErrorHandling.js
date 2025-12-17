@@ -1,0 +1,13 @@
+import httpError from "http-errors";
+import { config } from "../config/config.js";
+
+const globalErrorHandler = (err, req, res, next) => {
+const statusCode = err.status || 500;
+
+ return res.status(statusCode).json({
+  message : err.message,
+  errorStack : config.env === "development" ? err.stack : "",
+})
+};
+
+export default globalErrorHandler;
