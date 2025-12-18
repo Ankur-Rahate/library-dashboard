@@ -36,7 +36,7 @@ A full‑stack ebook management system with a React + Vite frontend and a Node.j
 #### npm start
 
 ### Environment Variables
-### #MONGO_CONNECTION_STRING=mongodb://localhost:27017/elibrary;
+### MONGO_CONNECTION_STRING=mongodb://localhost:27017/elibrary;
 #### JWT_SECRET=kbksjgfjjsvgnjhs
 #### PORT=5513
 
@@ -52,17 +52,17 @@ A full‑stack ebook management system with a React + Vite frontend and a Node.j
 
 ## 🖼️ Screenshots
 ### 📊 Dashboard
-![Dashboard Screenshot](docs/dashboard.png)
-### 🔑 Login / Signup
-![Login Screenshot](docs/login.png)
+![Dashboard Screenshot](docs/Dashboard.png)
+### 🔑 Login Page
+![Login Screenshot](docs/Loginpage.png)
 ### 📚 Book List
-![Book List Screenshot](docs/book-list.png)
+![Book List Screenshot](docs/Booklist.png)
 ### ➕ Create Book
-![Create Book Screenshot](docs/create-book.png)
+![Create Book Screenshot](docs/Createbook.png)
 ### ✏️ Edit Book
-![Edit Book Screenshot](docs/edit-book.png)
-### 📱 Mobile View
-![Mobile View Screenshot](docs/mobile-view.png)
+![Edit Book Screenshot](docs/Editbook.png)
+### 📱 Signup Page
+![Signup Page Screenshot](docs/Signuppage.png)
 
 
 ## Author
