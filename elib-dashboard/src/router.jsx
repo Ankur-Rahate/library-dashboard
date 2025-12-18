@@ -10,6 +10,7 @@ import EditPage from "./pages/EditPage";
 import DeleteBook from "./pages/DeletePage";
 import DeleteBookButton from "./pages/DeletePage";
 import BookDetailsPage from "./pages/BookDetailsPage";
+import CreateNewBookPage from "./pages/CreateNewBookPage";
 
 
 const router =  createBrowserRouter([
@@ -34,7 +35,7 @@ const router =  createBrowserRouter([
       
       {
         path:'book/create',
-        element: <CreateBook/>
+        element: <CreateNewBookPage/>
 
       },
       {
